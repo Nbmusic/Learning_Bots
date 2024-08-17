@@ -7,13 +7,13 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = 
-API_HASH = ""
-BOT_TOKEN = ""
-MONGO_DB_URI = ""
+API_ID = 23774324
+API_HASH = "e2b8ee172b56a7d380697ece2a9f5b2b"
+BOT_TOKEN = "7365297701:AAF1o6cG3vzWW1lMhYOnTtTFDrjtv1kr8YE"
+MONGO_DB_URI = "mongodb+srv://dilleesz:dilleesz@nbmusic.4itpc.mongodb.net/?retryWrites=true&w=majority&appName=nbmusic"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-LOGGER_ID = 
-OWNER_ID = 
+LOGGER_ID = -4223595743
+OWNER_ID = 7094112107
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -53,7 +53,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = ""
+STRING1 = "BAFqxHQAVomD9zFvWc6bDGaqwqW-SbENr8leGirCT6d6gP7O-_2MgUTegC_RlgIlFe4ud3I8BQ9UqydBKt8kdDIZAh-8hnszZbKzwkIGxJwSSiXIs0usR9kIBborL68uE72IzlhJ1Tqa2F_EVOr-suVYRi_vMipzMXWZEA-tQRVpmR2g5HPEzjzS35sqIn9Kaw8dk4875WZ1b_ImCWQZP0Z1TERKm1uLEfUMI4RzeaE9SD25-BksJSngQDII6j33z0x48w8gULMtCrAov0b6eqbvTNVrMpDQty_2FYIzWc3R_oWviYMWtToSacK9W5tbmh2i9b0_xA2XX7brxAkuzfKhzsdT4QAAAAGm149rAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
