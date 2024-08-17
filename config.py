@@ -12,7 +12,7 @@ API_HASH = "e2b8ee172b56a7d380697ece2a9f5b2b"
 BOT_TOKEN = "7365297701:AAF1o6cG3vzWW1lMhYOnTtTFDrjtv1kr8YE"
 MONGO_DB_URI = "mongodb+srv://dilleesz:dilleesz@nbmusic.4itpc.mongodb.net/?retryWrites=true&w=majority&appName=nbmusic"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-LOGGER_ID = -4223595743
+LOGGER_ID = -1002150035656
 OWNER_ID = 7094112107
 
 ## Fill these variables if you're deploying on heroku.
